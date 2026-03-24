@@ -12,12 +12,6 @@ graph TD
     B -->|32 Boyutlu Yoğun Vektörler| C{SimpleRNN Katmanı<br/>32 Hücre/Nöron}
     C -->|Bağlamsal Özellikler| D[Dense Çıktı Katmanı<br/>1 Nöron, Sigmoid Aktivasyonu]
     D -->|Olasılık Değeri 0-1| E((Sonuç<br/>Pozitif / Negatif))
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#fbb,stroke:#333,stroke-width:2px
-    style D fill:#bfb,stroke:#333,stroke-width:2px
-    style E fill:#fff,stroke:#333,stroke-width:2px
 ```
 
 ### Katmanların İşlevleri:
